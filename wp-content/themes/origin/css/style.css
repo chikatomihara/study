@@ -1,0 +1,86 @@
+/*
+Theme Name: origin
+*/
+.header{
+	height: 130px;
+	background-color: rgba( 240, 240, 240, 0.55 );
+}
+.gnavi{
+	width: 700px;
+	margin: auto;
+	padding-top: 50px; 
+}
+.gnavi ul{
+	overflow: hidden;
+}
+.gnavi_item{
+	float: left;
+	margin-left: 10px; 
+/*	border: 1px solid #000; 
+*/}
+.gnavi_item:first-child{
+		margin-left: 0; 
+	}
+.gnavi_item a{
+	display: block;
+	width: 120px;
+	padding: 1em 5px 0.5em;
+	text-align: center;
+	font-weight: bold;
+	transform: 0.5s;
+	position: relative;
+	}
+.gnavi_item_1 a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  border-bottom: 7px solid #ff7f7f;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.gnavi_item_1 a:hover:after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+.gnavi_item_2 a:hover{
+	border-bottom: 7px solid #ffbf7f;
+}
+.gnavi_item_3 a:hover{
+	border-bottom: 7px solid #ffff7f;
+}
+.gnavi_item_4 a:hover{
+	border-bottom: 7px solid #7fff7f;
+}
+.gnavi_item_5 a:hover{
+	border-bottom: 7px solid #7fbfff;
+}
+
+
+/*.gnavi_item a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: red;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}*/
